@@ -1,0 +1,63 @@
+h1{
+	font-family: Comic Sans MS, Impact;
+	font-size: 20px;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	/*float: left;*/
+}
+
+nav ul li a{
+	font-family: Impact;
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+}
+
+nav ul li a:hover{
+	background-color: purple;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+
+section{
+	display: inline-block;
+}
+
+
+#Formacion li{
+	color: blue;
+}
+
+#Experiencia li{
+	color: blue;
+}
+
+#Formacion ul strong{
+	color: black;
+} 
+
+#Experiencia  ul strong{
+	color: black;
+}
+
+footer{
+	clear: both;
+	margin-top: 240px;
+}
+
+@media (min-width: 360px) and (max-width: 1024px) {
+#DatosPersonales{
+	width: 35%;
+}
+
+#Formacion{
+	width: 33%;
+}
+
+#Experiencia{
+	width: 23%;
+}
+}
